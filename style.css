@@ -1,7 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  padding: 50px;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;     
+  height: 100%;            
+  width: 100%;             
 }
 
 .float-header {
@@ -26,6 +37,39 @@ body {
 
 .float-footer {
   clear: both;
+  width: 100%;
+  height: 125px;
+  background-color: #40e6ba;
+}
+
+.flex-wrapper {
+  margin-top: 10vh;
+}
+
+
+.flex-header {
+  width: 100%;
+  height: 150px;
+  background-color: #4db4c8;
+}
+
+.flex-body {
+  display: flex;
+}
+
+.flex-main {
+  width: 70%;
+  height: 525px;
+  background-color: #a7cf6c;
+}
+
+.flex-side {
+  width: 30%;
+  height: 525px;
+  background-color: #57734a;
+}
+
+.flex-footer {
   width: 100%;
   height: 125px;
   background-color: #40e6ba;
